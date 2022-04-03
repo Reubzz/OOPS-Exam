@@ -2,6 +2,22 @@
 
 ## Question and Answers:
 
+* **What is OOPs**
+
+  Object Oriented Programming (OOP) is a Software Programming Model Constructed Around Objects. This Model creates Data members into objects through declaration of Classes which inturn allows for simplified Programming. 
+
+* **Difference between Procedure Oriented Programing (POP) and Object Oriented Programing (OOP)**
+
+    POP  |  OOP  
+   :---: | :---: 
+   Pop Main program is divided into small parts depending on functions.  | OOPs Main Program is divided into small objects depending on the function.
+   There is no Data Abstraction | Data Abstraction is Possible with Classes
+   In POP top-to-down Process is followed | In OOP bottom-to-up Process is followed
+   In POP there is no access specifer | In OOPs there are access specifers to restrict certain functions. (Public, Private, Protected)
+   In POP Operators cannot be overloaded | In OOPs Operators can be overloaded
+   Examples of POP languages: C, Pascal, Fortan | Examples of OOPs languages: C++, Java.
+
+      
 * **What is a Class?**
 
   Class is a collection of Member Data and Member Functions which can be Public, Private or Protected. It is a template from which objects are created. It uses the Method of Data Abstraction to hide the Logic/Codes inside the Member Functions. 
