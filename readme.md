@@ -1,5 +1,10 @@
 # OOPs Internal Exam
 
+
+## Index: 
+  - [Questions and Answers](#question-and-answers)
+  - [Sample Programs](#programs)
+
 ## Question and Answers:
 
 * **What is OOPs**
