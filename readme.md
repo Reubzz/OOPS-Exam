@@ -35,7 +35,6 @@
 ## Programs:
 
 * Write a Program to check whether the given number is a Leap Year or not using C++ Classes.
-  
   [Click Here to Access File](programs/year.cpp)
   ```c++
     #include <iostream>
@@ -104,5 +103,5 @@
 * Some Additional Programs
 
   [Employee Information](programs/employeeInfo.cpp)
-  
+
   [Student Information](programs/studentInfo.cpp)
