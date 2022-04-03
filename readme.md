@@ -4,7 +4,7 @@
 
 * **What is a Class?**
 
-  Class is a collection of Functions which can be Public, Private or Protected. It is a template from which objects are created. It uses the Method of Data Abstraction to hide the Logic/Codes inside the Member Functions. 
+  Class is a collection of Member Data and Member Functions which can be Public, Private or Protected. It is a template from which objects are created. It uses the Method of Data Abstraction to hide the Logic/Codes inside the Member Functions. 
 
 * **Does Class have memory?**
   
@@ -16,7 +16,8 @@
 
 * **What is Data Encapsulation?**
 
-  Data Encapsulation is wrapping up a function into another function to remove Complexity in code. Encapsulation makes the program easier for end users. For eg. If we have to make a program to Add to numbers. We make a class which has two functions, getNum() and addNum() now instead of allowing the end user to call both getNum() and addNum() in void main() we rather encapsulate getNum() into addNum() function. Hence making the end User only call addNum() function in his main file and making his code easier. 
+  Data Encapsulation is wrapping up a function into another function to remove Complexity in code. Encapsulation makes the program easier for end users. 
+  For eg. If we have to make a program to Add to numbers. We make a class which has two functions, `getNum()` and `addNum()` now instead of allowing the end user to call both `getNum()` and `addNum()` in void `main()` we rather encapsulate `getNum()` into `addNum()` function. Hence making the end User only call `addNum()` function in his main file and making his code easier. 
 
 * **What is Constructor?**
   
@@ -24,12 +25,18 @@
 
 * **What is Destructor?**
 
-  Destructors work the same way like constructors except Destructors are invoked last just before the objects are destroyed. A Destructor cannot have any parameters, arguments or a return type. It must have the same name as the Class name like Constructors with the only difference that Destructors are prefixed with a Tilde Sign (~). Usually Destructors are used to avoid Memory Leak. 
+  Destructors work the same way like constructors except Destructors are invoked last just before the objects are destroyed. A Destructor cannot have any parameters, arguments or a return type. It must have the same name as the Class name like Constructors with the only difference that Destructors are prefixed with a Tilde Sign `~`. Usually Destructors are used to avoid Memory Leak. 
+
+* **What is Friend Class**
+
+  A friend class can access both private and protected members of the class in which it has been declared as friend. 
+  For eg. if `public class B` is declared as a friend inside the `pirvate Class A`. B is a friend of class A. Hence `Class B` can access the private members of `class A`.
 
 ## Programs:
 
 * Write a Program to check whether the given number is a Leap Year or not using C++ Classes.
   
+  [Click Here to Access File](programs/year.cpp)
   ```c++
     #include <iostream>
     #include <conio.h>
@@ -63,6 +70,7 @@
   ```
 
 * Write a Program to Reverse a String.
+  [Click Here to Access File](programs/revString.cpp)
   ```c++
   #include <iostream>
   #include <conio.h>
@@ -92,3 +100,9 @@
       return 0;
   }
   ```
+
+* Some Additional Programs
+
+  [Employee Information](programs/employeeInfo.cpp)
+  
+  [Student Information](programs/studentInfo.cpp)
