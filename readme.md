@@ -1,9 +1,12 @@
 # OOPs Internal Exam
 
 
-## Index: 
-  - [Questions and Answers](#question-and-answers)
-  - [Sample Programs](#programs)
+### Index: 
+
+  | **Table of Contents** |
+  | :---: |
+  | [Questions and Answers](#question-and-answers) |
+  | [Sample Programs](#programs) |
 
 ## Question and Answers:
 
