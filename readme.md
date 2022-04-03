@@ -17,7 +17,6 @@
    In POP Operators cannot be overloaded | In OOPs Operators can be overloaded
    Examples of POP languages: C, Pascal, Fortan | Examples of OOPs languages: C++, Java.
 
-      
 * **What is a Class?**
 
   Class is a collection of Member Data and Member Functions which can be Public, Private or Protected. It is a template from which objects are created. It uses the Method of Data Abstraction to hide the Logic/Codes inside the Member Functions. 
@@ -47,6 +46,10 @@
 
   A friend class can access both private and protected members of the class in which it has been declared as friend. 
   For eg. if `public class B` is declared as a friend inside the `pirvate Class A`. B is a friend of class A. Hence `Class B` can access the private members of `class A`.
+
+* **What is Polymorphism**
+
+  Polymorphism means many forms of one. In Polymorphism a Function may show different output dependng on the parameters you provide to the function. The act of defining functions with same name but with different parameters to show different outputs is known as Function Overloading. C++ Supports Function Overloading. And the whole act of Function Overloading as a whole means Polymorphism. 
 
 ## Programs:
 
@@ -121,3 +124,11 @@
   [Employee Information](programs/employeeInfo.cpp)
 
   [Student Information](programs/studentInfo.cpp)
+
+  [Add 2 Numbers](programs/add.cpp)
+
+  [For Loop example with Class](programs/forLoop.cpp)
+
+  [While Loop example with Class](programs/whileLoop.cpp)
+  
+  [Do-While Loop example with Class](programs/doWhileLoop.cpp)
