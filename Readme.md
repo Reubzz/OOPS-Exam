@@ -13,6 +13,37 @@
 
   Object Oriented Programming (OOP) is a Software Programming Model Constructed Around Objects. This Model creates Data members into objects through declaration of Classes which inturn allows for simplified Programming. 
 
+* **Advantages and Disadvantages of OOPs**
+
+  | Advantages | Disadvantages |
+  | :--------: | :-----------: |
+  | We can reuse the code multiple times using classes. | Size is larger than other programs. |
+  | Inherit the class to subclass for data redundancy. | It required a lot of effort to create. | 
+  | It is easy to maintain and modify | It is slower than other programs |
+  | It maintains the security of data | It is not suitable for some sorts of problems | 
+  | Low-cost development | It takes time to get used to it |
+
+* **What are the features of OOPs**
+
+  Concepts of OOP: 
+  - Objects
+  - Classes
+  - Data Abstraction & Encapsulation
+  - Inheritence
+  - Polymorphism
+
+* **What is difference between C and C++**
+
+  | C | C++ |
+  | :--: | :--: |
+  | C is a procedure-oriented programming language | C++ is a object-oriented programming language |
+  | C does not support data hiding | Data is hidden by encapsulation to ensure that data structures and operators are used as intended. | 
+  | C is a subset of C++ | C++ is a superset of C | 
+  | Function and operator overloading are not supported in C | Function and operator overloading is supported in C++ | 
+  | Namespace features are not present in C | Namespace is used by C++ which avoids name collisions | 
+  | Functions can not be defined inside structures | Functions can be defined under structures | 
+  | `calloc()` and `malloc()` functions are used for memory allocation and `free()` function is used for memory deallocation. | `New` operator is used for memory allocation and `delete` operator is used for memory de-allocations | 
+
 * **Difference between Procedure Oriented Programing (POP) and Object Oriented Programing (OOP)**
 
     POP  |  OOP  
@@ -56,7 +87,11 @@
 
 * **What is Polymorphism**
 
-  Polymorphism means many forms of one. In Polymorphism a Function may show different output dependng on the parameters you provide to the function. The act of defining functions with same name but with different parameters to show different outputs is known as Function Overloading. C++ Supports Function Overloading. And the whole act of Function Overloading as a whole means Polymorphism. 
+  Polymorphism means having many forms of one. In Polymorphism a Function may show different output dependng on the parameters you provide to the function. The act of defining functions with same name but with different parameters to show different outputs is known as Function Overloading. C++ Supports Function Overloading. And the whole act of Function Overloading as a whole means Polymorphism. 
+
+* **What is virtual function**
+  
+  Virtual Function is a member function in the base class that you redefine in a derived class. A virtual function is declared using the `virtual` keyword. When the function is made virtual, C++ determines which function is to be invoked at the runtime based on the type of the object pointed by the base class pointer.
 
 * **Explain C++ Templates with a snippet of code.**
 
