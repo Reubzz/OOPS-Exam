@@ -67,8 +67,8 @@
      - Class Templates
   
   <br>
-  
-  Function Templates: <br>
+
+  Function Templates: 
 
     For eg. If we need to write a `sort()` code for differnt data types (like `char`, `int`, `float`, etc). Rather than writing and maintaining multiple codes of the same logic but for different type. We use Templates to ease this work. In Templates we can supply `char` `int` `float` as a `parameter` and the Compiler will change the data type as per the parameter during Compile Time.
 
