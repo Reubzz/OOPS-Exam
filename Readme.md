@@ -63,10 +63,11 @@
   The template is a powerfull tool in C++. The idea is to pass data type as a parameter so that we don't need to write the same code for different data types. 
   
   There are two types of Tmeplates: 
-    - Function Templates
-    - Class Templates
+     - Function Templates
+     - Class Templates
   
-  - Function Templates:
+  <br>
+  Function Templates: <br>
     For eg. If we need to write a `sort()` code for differnt data types (like `char`, `int`, `float`, etc). Rather than writing and maintaining multiple codes of the same logic but for different type. We use Templates to ease this work. In Templates we can supply `char` `int` `float` as a `parameter` and the Compiler will change the data type as per the parameter during Compile Time.
 
   Code Snippet: 
@@ -91,7 +92,7 @@
   ```
   as in the above example we cann see the `template <typename T>` which is a template with typename as `T` we can use this `T` as a Data type. In the main file when we call the function supply `<>` parameter to it. Whatever data type is mentioned inside the `<>` replaces `T` in the template function and the resulting code is inserted by the compiler. For eg. If `myFunction<char>` is used, wherever `T` is used in template function will be replaced with `char` datatype. 
 
-  - Class Templates:
+  Class Templates:<br>
     Like Function Templates, class templates are useful when a class defines something that is independant of the data type. Can be usefull for classes like Arraylist, Queues, etc. 
 
 ## Programs:
