@@ -34,7 +34,7 @@
 
 * **What is Data Abstraction?**
 
-  Data Abstraction is Hiding of Data. C++ classes use the method of Data Abstraction to hide the logic/code inside functions used inside the class and not show it to the end user. For eg. If we make a class with 2 functions and later call these two functions through objects in the void main() we do not see the codes inside the function and only see the function name. This is Data abstraction.
+  Data Abstraction is Hiding of Data. C++ classes use the method of Data Abstraction to hide the logic/code inside functions used inside the class and not show it to the end user. For eg. If we make a class with 2 functions and later call these two functions through objects in the `void main()` we do not see the codes inside the function and only see the function name. This is Data abstraction.
 
 * **What is Data Encapsulation?**
 
@@ -96,6 +96,67 @@
 
   Class Templates:<br>
     Like Function Templates, class templates are useful when a class defines something that is independant of the data type. Can be usefull for classes like Arraylist, Queues, etc. 
+
+* **Explain why do we use namespace in C++**
+  
+  Namespaces are used to organize code into logical groups and to prevent name collisions that can occur especially when your code base includes multiple libraries.
+
+* **What are Data Types? State basic data types available in C++**
+
+  In C++, data types are declarations for variables. The Data Type determines the type and size of data associated with variables.
+  Data Types available in C++ are -> `int`, `float`, `double`, `char`, `bool`, `void`, etc
+
+* **What are Loops?**
+
+  Loops in Programming come into use when we need to repeatedly execute a block of code/statements. For eg. Suppose we want to print `"Hello World"` 100 times. Instead of typing the print statement 100 times we can use a loop. We can use either `for` `do-while` or `while` loop for this. 
+
+  There are 2 types of Looping methods in C++ they are: 
+    - Entry Controlled Loops (for and while loop)
+    - Exit Controlled Loops (do-while loop)
+  
+* **Using a Code snippet, explain how would you use a loop effectively**
+
+  For this example we will use the `for loop` 
+  Syntax: 
+  ```c++
+    for( initialization ; condition ; update )
+    {
+        // Code
+    }
+  ```
+  here, 
+  - `initialization` -> initialized the variable used to control the loop. 
+  - `condition` -> If `true` the code is executed. If `false` the loop is terminated. 
+  - `update` -> Increments or Decrements the initialized variable for the next iteration. 
+  
+  <br>
+
+  Eg. Printing Numbers from 1 to 10
+  ```c++
+    #include <iostream>
+
+    using namespace std;
+
+    int main(){
+        for(int i = 1; i <= 10; i++){
+            cout << i << " ";
+        }
+        return 0;
+    }
+  ```
+  Output:
+  ``` 
+  1 2 3 4 5 6 7 8 9 10 
+  ```
+
+* **Structure vs Class**
+
+  | Class | Structure |
+  | :--: | :--: |
+  | Members of a class are private by default | Members of a structure are public by default |
+  | Memmory Allocation happens on the heap. | Memory allocationhappens on a stack | 
+  | Its a reference type data type. | It's a value type data type. |
+  | It's declared using the class keyword. | It's declared using the struct keyword. |
 
 ## Programs:
 
