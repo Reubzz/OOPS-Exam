@@ -93,6 +93,24 @@
   
   Virtual Function is a member function in the base class that you redefine in a derived class. A virtual function is declared using the `virtual` keyword. When the function is made virtual, C++ determines which function is to be invoked at the runtime based on the type of the object pointed by the base class pointer.
 
+* **What are C++ Access Specifiers?**
+  
+  In C++ there are the following access specifiers:
+
+  - `Public`: All data members and member functions are accessible outside the class.
+
+  - `Protected`: All data members and member functions are accessible inside the class and to the derived class.
+
+  - `Private`: All data members and member functions are not accessible outside the class.
+
+* **Define Inline function**
+
+  If a function is inline, the compiler places a copy of the code of that function at each point where the function is called at compile time. One of the important advantages of using an inline function is that it eliminates the function calling overhead of a traditional function.
+
+* **What is an abstract class and when do you use it?**
+
+  A class is called an abstract class whose objects can never be created. Such a class exists as a parent for the derived classes. We can make a class abstract by placing a pure virtual function in the class.
+
 * **Explain C++ Templates with a snippet of code.**
 
   The template is a powerfull tool in C++. The idea is to pass data type as a parameter so that we don't need to write the same code for different data types. 
