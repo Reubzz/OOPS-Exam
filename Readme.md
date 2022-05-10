@@ -211,6 +211,12 @@
   | Its a reference type data type. | It's a value type data type. |
   | It's declared using the class keyword. | It's declared using the struct keyword. |
 
+
+
+
+<hr>
+<hr>
+
 ## Programs:
 
 * Write a Program to check whether the given number is a Leap Year or not using C++ Classes.
