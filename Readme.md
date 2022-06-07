@@ -37,11 +37,8 @@ function <br>
 <br>
 
 - [Pracical 4](./Practicals/Practical%204/)
-    - [A](./Practicals/Practical%204/4a.cpp) - Overload the operator unary(-) for demonstrating operator overloading.
- <br>
-    - [B](./Practicals/Practical%204/4B.CPP) - Overload the operator + for adding the timings of two clocks, And also pass objects 
-as an argument.
- <br>
+    - [A](./Practicals/Practical%204/4a.cpp) - Overload the operator unary(-) for demonstrating operator overloading. <br>
+    - [B](./Practicals/Practical%204/4B.CPP) - Overload the operator + for adding the timings of two clocks, And also pass objects as an argument. <br>
     - [C](./Practicals/Practical%204/4C.CPP) - Overload the + for concatenating the two strings. For e.g “Py” + “thon” = Python <br>
 
 <br>
